@@ -1,0 +1,30 @@
+@import 'vareble';
+
+.main-header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    .container {
+        @include flex-between;
+    }
+    .logo {
+        font-family: $heading-font;
+        font-size: 24px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+    .main-nav ul {
+        display: flex;
+        li {
+            color: white;
+            margin-left: 30px;
+            a {
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: $secondary-color;
+
+            }
+        }
+    }
+}

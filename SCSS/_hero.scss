@@ -1,0 +1,21 @@
+@import "vareble";
+
+.hero-section {
+    background: url("../assets/IMAGE.png") no-repeat center/cover;
+    color: $text-light;
+    text-align: center;
+    position: relative;
+    padding: 100px 0;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: $text-light;
+    }
+    p {
+        font-size: 17px;
+        max-width: 500px;
+        margin: 0 auto 30px;
+        opacity: 0.8;
+    }
+}

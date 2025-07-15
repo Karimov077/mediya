@@ -1,0 +1,22 @@
+$primary-color: #555;
+$secondary-color: #777;
+$light-grey: #f7f7f7;
+$dark-grey: #2d3134;
+$accent-color: #dd783f;
+$text-light: #fff;
+
+$heading-font: 'Lora', serif;
+$body-font: 'Oxygen', sans-serif;
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
